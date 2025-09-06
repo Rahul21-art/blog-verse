@@ -18,20 +18,20 @@ console.log(even);
 let sum=numbers.reduce((present,num)=>present+num,0);//gives the sum of all the elements in the array named with numbers
 console.log(sum);
 
-let person1={
+let tar={
     name:"naidu",
     marks:85,
 }
-let person2={
+let ram={
     name:"ramu",
     marks:90,
 }
-let person3={
+let rahul={
     name:"sai",
     marks:9430
 }
-let persons=[person1,person2,person3];
+let persons=[tar,ram,rahul];
 console.log(persons);
 
-let topScorer=persons.reduce((max,person)=>(max.marks>person.marks)?max:person);
+let topScorer=persons.reduce((high,person)=>(high.marks>person.marks)?high:person);
 console.log(topScorer);
