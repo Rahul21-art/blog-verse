@@ -43,8 +43,18 @@ for(let key in person){
 
 i=1
 while(i<=10){
-    if (i===5){git 
+    if (i===5){
         break;
+    }
+    console.log(i);
+    i++;
+}
+
+for(i=1;i<=10;i++)
+{
+    if (i===4)
+    {
+        continue;
     }
     console.log(i);
     i++;
